@@ -1,0 +1,16 @@
+.home-inner{
+    background-image: url(https://i.pinimg.com/originals/27/d5/d7/27d5d7f8b7e6ea3c8556dd6d274a5b23.jpg)
+}
+
+.fixed-bg {
+    background-image: url("https://cdn.wallpapersafari.com/24/84/n75saB.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.fixed-background{
+    padding: 10rem 0;
+}

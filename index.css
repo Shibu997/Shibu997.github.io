@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.offset:before{
+    height: 4rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.8)!important;
+}
+
+.navbar-brand img{
+    height: 2.5rem;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+color: white;
+padding-top: 0.8rem;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #115199;
+}
+
+.home-inner{
+    background-image:url(https://i.pinimg.com/originals/27/d5/d7/27d5d7f8b7e6ea3c8556dd6d274a5b23.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:0.1%;
+    z-index:1;
+    color:white;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+.heading-underline{
+   width: 3rem;
+   height: .4rem;
+   background-color: #115199; 
+   margin: 0 auto 2rem;
+}
+
+.card{height: 80%;
+    margin: 2rem;
+
+}
+
+footer{
+    background-color: #1d2022f6;
+    color: white;
+    padding: 2rem 0 3rem;
+    margin-top: 1rem;
+}
+
+footer img{
+    height: 3rem;
+    margin:1.5rem 0; 
+}
+
+footer a{
+    color: #115199;
+}
+
+footer svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover{
+
+    color:white;
+}
+
+hr.socket{
+    border-top: .2rem solid #666b71;
+    width: 100%;
+}
+
+.heading{
+    margin-top: 2em;
+}
+
+.narrow h1{
+    text-align: center;
+}
+
+.new{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:270%;
+    z-index:1;
+    color:white;
+    text-transform: uppercase;
+}
+
+.new h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.new h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
